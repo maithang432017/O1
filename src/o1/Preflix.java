@@ -16,7 +16,7 @@ public class Preflix {
 			while (arrs[i].indexOf(preflix) != 0) {
 				preflix = preflix.substring(0, preflix.length() - 1);
 			}
-		}
+		}//new
 		return preflix;
 	}
 
